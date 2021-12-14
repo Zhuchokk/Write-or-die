@@ -28,7 +28,7 @@ class Pakosti:
             picture_id = str(randint(1, 4))
             system(path.abspath('start ' + path.abspath(f'Pakosti\\images//{picture_id}.jpg')))
         elif pakost == 'статья':
-            system(path.abspath('start ' + path.abspath('Pakosti\\document.rtf')))
+            system(path.abspath('start ' + path.abspath('Pakosti\\document.txt')))
         elif pakost == 'клавиши':
             print('text')
             write(choice(self.words), interval=0.1)
